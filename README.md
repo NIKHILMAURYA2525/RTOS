@@ -9,9 +9,9 @@ Implements queues to safely transfer received data from the UART interrupt conte
 • Menu-driven interface:
 A user-friendly menu is displayed over the serial terminal.
 
-========================
+
 |         Menu         |
-========================
+
 LED effect    ----> 0
 Date and time ----> 1
 Exit          ----> 2
