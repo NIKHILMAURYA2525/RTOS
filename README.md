@@ -1,13 +1,14 @@
 # RTOS
-📟 RTOS-Based Menu-Driven Embedded Application
+RTOS-Based Menu-Driven Embedded Application
 This project demonstrates a FreeRTOS-based embedded system that handles user input via USART2 using interrupt-driven communication and queue-based task signaling. It features a simple menu interface allowing users to trigger different functionalities on an embedded target.
-🧠 Key Features
-• 	Interrupt-Driven UART Input:
-Uses  to receive user input asynchronously via USART2.
-• 	ISR-to-Task Communication:
-Implements  to safely transfer received data from the UART interrupt context to a command handler task.
-• 	Menu-Driven Interface:
-A user-friendly menu is displayed over serial terminal:
+Key Features
+• Interrupt-driven UART input:
+Uses USART2 to receive user input asynchronously.
+• ISR-to-task communication:
+Implements queues to safely transfer received data from the UART interrupt context to a command handler task.
+• Menu-driven interface:
+A user-friendly menu is displayed over the serial terminal.
+
 ========================
 |         Menu         |
 ========================
